@@ -56,6 +56,11 @@ if opc == "1"{
   tablero[5][4] = "x"
   tablero[4][5] = "x"
   tablero[5][5] = "x"
+}else{
+  tablero[3][3] = "x"
+  tablero[3][4] = "x"
+  tablero[4][3] = "x"
+  tablero[4][4] = "x"
 }
 
 var l = 0;
